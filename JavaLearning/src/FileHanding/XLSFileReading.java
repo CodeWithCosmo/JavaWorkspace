@@ -19,7 +19,7 @@ public class XLSFileReading {
 
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-                System.out.print(s.getCell(j, i).getContents() + "	");
+                System.out.print(s.getCell(j, i).getContents() + " ");                
             }
             System.out.println();
         }

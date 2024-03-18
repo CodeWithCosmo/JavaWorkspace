@@ -20,9 +20,10 @@ public class XLSFileWriting {
         
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
-                s.addCell(new Label(j, i, "XLS"));
+                s.addCell(new Label(j, i, "Java Learning"));
             }
         }
+        System.out.println("Data Writed Successfully!");
         wb.write();
         wb.close();
     }	
