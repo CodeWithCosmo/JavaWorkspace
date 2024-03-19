@@ -1,2 +1,0 @@
-Welcome to QA Training Sessions.
-Today, We will discuss about File Handling.

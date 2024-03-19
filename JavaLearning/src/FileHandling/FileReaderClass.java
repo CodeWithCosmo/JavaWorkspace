@@ -1,4 +1,4 @@
-package FileHanding;
+package FileHandling;
 
 import java.io.File;
 import java.io.FileReader;
@@ -8,7 +8,7 @@ public class FileReaderClass {
     
     public void ReadData() throws IOException {
 
-        File f = new File("../JavaLearning/src/FileHanding/ReadData.txt");  
+        File f = new File("../JavaLearning/src/FileHandling/ReadData.txt");  
         FileReader fr = new FileReader(f);  
         
         int a;

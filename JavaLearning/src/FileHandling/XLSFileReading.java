@@ -1,4 +1,4 @@
-package FileHanding;
+package FileHandling;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import jxl.read.biff.BiffException;
 public class XLSFileReading {
 
     public void readXLS() throws BiffException, IOException {
-        File f = new File("../JavaLearning/src/FileHanding/XLSReading.xls");
+        File f = new File("../JavaLearning/src/FileHandling/XLSReading.xls");
         Workbook wb = Workbook.getWorkbook(f);
         Sheet s = wb.getSheet(0);
 

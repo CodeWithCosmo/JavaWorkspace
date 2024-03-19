@@ -1,4 +1,4 @@
-package FileHanding;
+package FileHandling;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class XLSFileWriting {
 
     public void writeXLS() throws IOException, RowsExceededException, WriteException {
      
-        File f = new File("../JavaLearning/src/FileHanding/XLSWriting.xls");
+        File f = new File("../JavaLearning/src/FileHandling/XLSWriting.xls");
         WritableWorkbook wb = Workbook.createWorkbook(f);
         WritableSheet s = wb.createSheet("Sheet1", 0);
         
