@@ -8,11 +8,18 @@ public class FileCreateDeleteRename {
 	
 	public void Create(String name) throws IOException{
 		
-		File f1 = new File("../JavaLearning/src/FileHandling/"+name);
+		try {
+			File f1 = new File("../JavaLearning/src/FileHandling/"+name);
+			f1.createNewFile();
+			
+			System.out.println(f1.getName()+" created Successfully!");
+		}
 		
-		f1.createNewFile();
+		catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
 		
-		System.out.println(f1.getName()+" created Successfully!");
+		
 				
 	}
 	
@@ -59,7 +66,7 @@ public class FileCreateDeleteRename {
 
 		System.out.println("File Handling \n\n1. Create\n2. Delete\n3. Rename\n\nEnter your choice: ");
 
-		String choice = s.next();	//Why I not declare choice as integer ? (because when integer, it can cause InputMismatchException)
+		String choice = s.next();	//! Why choice is not declare as integer ? ANS: because when choice is integer, it may be suffer from an exception named "InputMismatchException".
 
 		
 		switch (choice) {
