@@ -1,6 +1,6 @@
 package Inheritence;
 
-class Phone {
+class CellPhone {
 
     public void call(){
         System.out.println("Calling...");
@@ -14,7 +14,7 @@ class Phone {
 
 }
 
-class SmartPhone extends Phone{ 
+class SmartPhone extends CellPhone{ 
     public void PlayMusic(){
         System.out.println("Playing music...");
     }
