@@ -8,8 +8,8 @@ public class TestingDefaultAccessOtherPackage {
         
     @SuppressWarnings("unused")
         DefautlAccessClass obj = new DefautlAccessClass();
-        // obj.access();
-        // System.out.println("Acess Level: "+obj.level);
+//         obj.access();
+//         System.out.println("Access Level: "+obj.level);
 
         //* In this case we are trying to access default members from outer packages.
         //* Outer packages for a class are all packages in which the existing class not present even the package is the sub-package of the parent package of current class. */

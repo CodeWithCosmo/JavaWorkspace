@@ -1,4 +1,4 @@
-package SelfLearning;
+package SelfPractice;
 
 interface Drawable {
 	

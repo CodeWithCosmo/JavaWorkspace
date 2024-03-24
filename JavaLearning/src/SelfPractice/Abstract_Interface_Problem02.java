@@ -1,4 +1,4 @@
-package SelfLearning;
+package SelfPractice;
 
 abstract class Employee {
 	final static double rate = 0.012; //^ 1 RS = 0.012 USD

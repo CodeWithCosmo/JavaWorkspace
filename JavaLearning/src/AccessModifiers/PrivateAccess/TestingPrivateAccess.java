@@ -9,6 +9,6 @@ public class TestingPrivateAccess {
         // obj.access();
         // System.out.println(obj.level);
 
-        //* In this case the we are trying to access private members from out the class. that's why we got an error. */
+        //* In this case the we are trying to access private members from other class. that's why we got an error. */
     }
 }

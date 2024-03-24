@@ -1,6 +1,6 @@
 package AdvancedConcepts;
 
-public class OuterClass {
+class OuterClass {
     
     private int outerField;
     
@@ -15,7 +15,7 @@ public class OuterClass {
     }
     
     // Nested class
-    public class InnerClass {
+    class InnerClass {
         
         private int innerField;
         
@@ -29,6 +29,8 @@ public class OuterClass {
             System.out.println("Inner field value: " + innerField);
         }
     }
+}
+public class NestedClasses {
     
     // Main method
     public static void main(String[] args) {
