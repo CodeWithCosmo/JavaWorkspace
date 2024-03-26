@@ -17,9 +17,11 @@ public class CheckedExeption {
         
         File file = new File("sample.txt");
         try (Scanner s = new Scanner(file)) {
-            System.out.println("File is found");
+            System.out.println("File found");
         } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.getMessage());  //* e.getMessage() --> returns the exception description only
+            System.out.println(e.toString());  //* e or e.toString() --> returns the exception name and description 
+            e.printStackTrace();  //* e.printStackTrace() --> returns the exception name, description and StackTrace
         }        
     }
 }

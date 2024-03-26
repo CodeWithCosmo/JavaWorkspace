@@ -9,14 +9,11 @@ package ExceptionHandling;
 public class UncheckedExeption {
 
     public static void main(String[] args) {
-
-        int a = 10;
-        int b = 0;
         try {
-            System.out.println(a/b);
+            System.out.println(1/0);
         }
         catch (Exception e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
     }
 }
