@@ -1,4 +1,4 @@
-package SelfLearning.BAMS;
+package MiniProjects.BAMS;
 
 import java.util.Scanner;
 
