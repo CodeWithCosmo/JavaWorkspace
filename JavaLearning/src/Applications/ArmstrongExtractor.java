@@ -37,7 +37,7 @@ public class ArmstrongExtractor {
 	public static void main(String[] args) {
 		ArmstrongExtractor a = new ArmstrongExtractor();
 		Scanner s = new Scanner(System.in);
-		System.out.println("Upto which number do you want to extract armstrong numbers ?");
+		System.out.print("Upto which number do you want to extract armstrong numbers ? ");
 		int no = s.nextInt();
 		
 		if (no < 0) {
