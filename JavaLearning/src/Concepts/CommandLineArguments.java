@@ -1,4 +1,4 @@
-package AdvancedConcepts;
+package Concepts;
 
 //* Sum of n numbers using command line arguments */
 

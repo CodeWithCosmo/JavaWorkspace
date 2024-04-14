@@ -1,4 +1,4 @@
-package LiveAssignments;
+package Patterns;
 
 public class Pattern06 {
         

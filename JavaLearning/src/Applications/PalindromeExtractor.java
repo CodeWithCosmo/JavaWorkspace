@@ -1,4 +1,4 @@
-package Concepts;
+package Applications;
 
 import java.util.Scanner;
 
@@ -30,7 +30,7 @@ public class PalindromeExtractor {
 	public static void main(String[] args) {
 		PalindromeExtractor p = new PalindromeExtractor();
 		Scanner s = new Scanner(System.in);
-		System.out.println("Upto which number do you want to extract palindrome numbers ?");
+		System.out.print("Upto which number do you want to extract palindrome numbers ? ");
 		int no = s.nextInt();
 		
 		if (no < 0) {

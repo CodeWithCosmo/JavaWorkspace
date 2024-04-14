@@ -1,4 +1,4 @@
-package AdvancedConcepts;
+package Concepts;
 
 //* In this case we override a method using different return type (subtype of super class).So, It is not
 //* necessary to have same return type in method overriding.

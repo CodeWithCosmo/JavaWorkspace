@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/JavaWorkspace/Jar/message.jar"/>
+	<classpathentry kind="lib" path="C:/Users/realme/OneDrive/Documents/Jars/Sender/sender.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

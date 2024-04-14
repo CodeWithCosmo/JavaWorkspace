@@ -1,4 +1,4 @@
-package AdvancedConcepts;
+package Concepts;
 
 class Base {    
     

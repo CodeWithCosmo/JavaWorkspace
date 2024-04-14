@@ -1,4 +1,4 @@
-package Concepts;
+package Applications;
 
 import java.util.Scanner;
 
@@ -31,7 +31,7 @@ public class PrimeExtractor {
 		
 		PrimeExtractor p = new PrimeExtractor();
 		Scanner s = new Scanner(System.in);
-		System.out.println("Upto which number do you want to extract prime numbers ?");
+		System.out.print("Upto which number do you want to extract prime numbers ? ");
 		int no = s.nextInt();
 		if (no < 0) {
 			System.out.println("Please enter +ve number.");
